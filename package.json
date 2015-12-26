@@ -1,7 +1,7 @@
 {
   "jspm": true,
   "name": "global-country-names",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Get a random country name",
   "directories": {
     "lib": "lib"

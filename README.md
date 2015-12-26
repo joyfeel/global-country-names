@@ -1,14 +1,13 @@
 global-country-names
 ===
 
-Usage
+Usage:
 ```
 	jspm init -y
 	jspm i global-country-names=github:joyfeel/global-country-names
 ```
 
-Create a `test.js` file in `public/js` folder.
-Edit the `test.js`.
+Create a `test.js` file in `public/js` folder and edit it.
 
 ```javascript
 	import * as country from 'global-country-names';
@@ -16,10 +15,10 @@ Edit the `test.js`.
 	console.log(country.all());
 	console.log(country.random());
 ```
-Create a `public/dest` folder
+Create a `public/dest` folder and build it out!
 
 ```
-jspm bundle-sfx public/js/test.js public/dest/build.js
+jspm bundle-sfx public/js/test.js public/dest/build.js --minify
 ```
 
 ### License
