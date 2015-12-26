@@ -1,0 +1,22 @@
+{
+  "jspm": true,
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "index.js",
+  "format": "es6",
+  "registry": "jspm",
+  "devDependencies": {
+    "babel": "npm:babel-core@^5.8.24",
+    "babel-cli": "6.3.17",
+    "babel-core": "6.3.26",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-stage-3": "6.3.13",
+    "babel-runtime": "npm:babel-runtime@^5.8.24",
+    "core-js": "npm:core-js@^1.1.4"
+  },
+  "dependencies": {
+    "json": "github:systemjs/plugin-json@^0.1.0",
+    "unique-random-array": "npm:unique-random-array@^1.0.0"
+  }
+}
